@@ -9,6 +9,14 @@ body {
 	font-weight: 400;
 	overflow-x: hidden;
 }
+body::-webkit-scrollbar-thumb {
+    background: #ee5057;
+    border-radius: 5px;
+}
+body::-webkit-scrollbar {
+    background: #f1f1f1;
+    width: 5px;
+}
 
 a, button { transition: all 0.3s ease; }
 a:hover,
